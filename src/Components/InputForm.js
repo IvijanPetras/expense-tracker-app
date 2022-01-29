@@ -34,7 +34,7 @@ window.onload=function(){
     function eraseBtn(e){
         var erBtn = document.createElement('div');
         erBtn.className = "erBtn";
-        erBtn.innerText = "brisi"
+        erBtn.innerText = "erase"
         erBtn.addEventListener('click', eraseTr);
         e.appendChild(erBtn);
     }
@@ -66,7 +66,7 @@ function InputForm(){
     
 
     return(
-        <div>
+        <div className='input'>
             <form>
                 <label htmlFor="expense">Expenses:</label>
                 <input className='expense' id="expense" name="expense" type='text' placeholder='Add new expense' autoFocus/>

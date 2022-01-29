@@ -3,7 +3,7 @@ import React from 'react';
 function Table() {
  
     return(
-        <div>
+        <div className='table'>
             <table border="1" className='table' width="50%">
                 <thead>
                     <tr>
